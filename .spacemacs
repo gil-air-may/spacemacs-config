@@ -76,10 +76,8 @@ values."
        (evil-mc-resume-cursors)
        (evil-normal-state)
        (move-to-column (evil-mc-column-number (if (> end beg)
-                                                  beg
-                                                end)))))
-                                      
-   )
+       beg end)))))
+       )
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
@@ -284,7 +282,7 @@ values."
    ;;                       text-mode
    ;;   :size-limit-kb 1000)
    ;; (default nil)
-   dotspacemacs-line-numbers nil
+   dotspacemacs-line-numbers t
    ;; Code folding method. Possible values are `evil' and `origami'.
    ;; (default 'evil)
    dotspacemacs-folding-method 'evil
