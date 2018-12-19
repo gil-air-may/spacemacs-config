@@ -36,6 +36,7 @@ values."
                  javascript-disable-tern-ports nil
                  )
      react
+     evil-commentary
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
